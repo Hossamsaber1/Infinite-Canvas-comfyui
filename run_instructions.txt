@@ -1,0 +1,53 @@
+1. Register an API account:
+   https://apimart.ai/register?aff=1uyAbb
+
+2. Run:
+   install_dependencies.bat
+
+3. If Python has never been installed on your computer before, the program may fail to start.
+   If you have good internet/VPN access, you can install Codex.
+   If you are inside China, you can install Trae.
+   You can search for these tools yourself or use the installer package from the shared drive.
+
+4. After opening Codex, select this project folder and tell Codex:
+   “The service startup has issues, please fix the environment errors.”
+
+5. After the program runs successfully:
+   Open the web UI → bottom-left Settings → API Settings
+
+Request URL:
+https://api.apimart.ai
+
+Protocol:
+Select “APIMart Async”
+(Different providers use different protocols. Other providers may use the OpenAI protocol.)
+
+Then enter your API key to load and select the models you want.
+
+6. If you want free generation:
+   Configure a ModelScope API key.
+   You can also use LoRA models.
+
+7. If you want to use a local ComfyUI instance:
+   Open the bottom-left ComfyUI settings.
+   The app supports importing custom workflows.
+
+=== You can run the application using any ONE of these modes ===
+
+* API mode
+* ModelScope mode
+* Local ComfyUI mode
+
+--- macOS Instructions ---
+
+Added:
+
+* 3 macOS setup guides
+* Fix for Select All
+* Service startup fixes
+
+If startup still fails:
+Install Trae from:
+[www.trae.cn](http://www.trae.cn)
+
+Then open this project folder inside Trae and let it run the program.

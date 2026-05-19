@@ -1,0 +1,40 @@
+# Runtime / Build folders
+python/
+packages/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.*
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Generated outputs
+outputs/
+generated/
+renders/
+
+# Databases
+*.db
+*.sqlite
